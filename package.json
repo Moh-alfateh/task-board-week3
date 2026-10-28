@@ -1,0 +1,19 @@
+{
+  "name": "task-board-week2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lie": "tsx src/lie.ts",
+    "typecheck": "tsc --noEmit",
+    "start": "tsx src/main.ts",
+    "check": "tsx src/check.ts"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "@types/node": "^22.13.10"
+  }
+}
